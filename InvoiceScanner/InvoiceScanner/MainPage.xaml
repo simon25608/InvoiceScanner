@@ -9,6 +9,10 @@
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Label Text="{Binding MyStringProperty}" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Button   Clicked="TakePictureButton_Clicked" Text="Foto"></Button>
     </StackLayout>
 
 </ContentPage>

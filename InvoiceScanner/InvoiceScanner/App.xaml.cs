@@ -1,4 +1,5 @@
 ﻿using System;
+using Tesseract;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace InvoiceScanner
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainPage();            
         }
 
         protected override void OnStart()
@@ -28,5 +29,7 @@ namespace InvoiceScanner
         {
             // Handle when your app resumes
         }
+
+        
     }
 }
